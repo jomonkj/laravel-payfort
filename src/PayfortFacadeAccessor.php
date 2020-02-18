@@ -31,4 +31,4 @@ class PayfortFacadeAccessor
         $config = array_merge(config('payfort'), $extra_config);
         return new PayfortRedirection($config);
     }
-}
+} 
